@@ -242,6 +242,11 @@ h2 {
 }
 
 @media screen and (max-width: 479px) {
+
+  .nav_links {
+    width: 60vw;
+  }
+
   .burger {
     align-self: flex-end;
     display: initial;
@@ -299,6 +304,7 @@ h2 {
 
 .nav-active {
   display: flex;
+  overflow: hidden;
 }
 
 .toggle .line1 {
