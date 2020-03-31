@@ -42,7 +42,8 @@ hr {
 
 .info a,
 p {
-  color: black;
+  color: #6F6767;
+  font-weight: 200;
 }
 
 nav {
