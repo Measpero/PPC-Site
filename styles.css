@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif|PT+Serif+Caption|Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-button {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button {
+  padding: 20px 35px;
+  border-radius: 40px;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #a2d1d6;
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+
+
+hr {
+  text-align: center;
+  margin: 0 auto;
+  height: 0.6px;
+  border: none;
+  width: 60%;
+  background-color: #393a3b;
+}
+
+.button:hover {
+  transition: 0.08s ease-in;
+  background-color: #8bdce7;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: #393a3b;
+}
+
+.directions-button {
+  text-align: center;
+  margin: 30px;
+}
+
+.directions-button a {
+  padding: 20px 35px;
+  border-radius: 40px;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+
+  background-color: #a2d1d6;
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+
+.directions-button a:hover {
+  background-color: #8bdce7;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+
+.info p {
+  padding: 25px;
+  text-align: center;
+}
+
+.license-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.license-num p {
+  padding: 12px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p {
+  font-size: 1.2vw;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-size: 1.5vw;
+}
+
+li,
+a {
+  font-family: "PT Serif", serif;
+  text-decoration: none;
+  color: rgb(247, 244, 244);
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-size: 25px;
+  text-align: center;
+  padding: 1.5rem;
+  padding-bottom: 15px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.slogan {
+  padding: 1.5rem;
+}
+
+.logo {
+  width: 14.25rem;
+  height: auto;
+  padding: 0;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.logo:hover {
+  width: 14.5rem;
+  height: auto;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  width: 38.625rem;
+  /* width: 45%; */
+  list-style: none;
+  position: relative;
+  top: 10px;
+  left: 15px;
+
+}
+
+.nav_links a {
+  font-weight: 550;
+  letter-spacing: 3px;
+}
+
+.nav_links a:hover {
+  transition: ease-in-out 0.2s;
+  background-color: #a2d1d6;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+
+.burger {
+  display: none;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 35px;
+  height: 3px;
+  margin: 5px;
+  background-color: rgb(247, 247, 247);
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 980px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .nav_links {
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+    display: none;
+    left: 0;
+  }
+
+
+
+  .burger {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    cursor: pointer;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .info p {
+    font-size: 2.2vw;
+  }
+
+  .license-num p {
+    font-size: 2vw;
+  }
+
+  .copyright p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .burger {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+  .directions-button a {
+    padding: 15px 25px;
+    font-size: 15;
+  }
+
+  .button {
+    padding: 15px 25px;
+  }
+
+  .contact-button {
+    margin-top: 30px;
+  }
+
+  .logo {
+    position: relative;
+    left: 40px;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+
+  }
+
+  .info p {
+    padding: 5px;
+    font-size: 3.5vw;
+  }
+
+  .license-num {
+    padding: 5px;
+  }
+
+  .license-num p {
+    font-size: 2.5vw;
+  }
+
+  .copyright p {
+    font-size: 2.4vw;
+  }
+}
+
+
+.nav-active {
+  display: flex;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
