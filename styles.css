@@ -40,6 +40,11 @@ hr {
   background-color: #8bdce7;
 }
 
+.info a,
+p {
+  color: black;
+}
+
 nav {
   display: flex;
   flex-direction: row;
