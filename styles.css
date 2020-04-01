@@ -116,6 +116,59 @@ p {
   font-size: 1.5vw;
 }
 
+.pcs {
+  text-align: center;
+  color: black;
+}
+
+.is-pics img {
+  padding: 1.5rem;
+  width: 25vw;
+  height: auto;
+  cursor: pointer;
+}
+
+.cms:hover,
+.wellcare:hover,
+.staywell:hover {
+  border: 2px #a2d1d6 solid;
+}
+
+
+
+.cms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.wellcare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.staywell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.is-pics {
+  margin: 20px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-pics div {
+  width: 25vw;
+  height: auto;
+}
+
 li,
 a {
   font-family: "PT Serif", serif;
@@ -212,6 +265,12 @@ h2 {
     display: none;
     left: 0;
     width: 60vw;
+  }
+
+  .is-pics img {
+
+    width: 30vw;
+    height: auto;
   }
 
 
