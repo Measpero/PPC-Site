@@ -29,9 +29,9 @@
   color: black;
 }
 
-
-
-
+.heading {
+  background-color: #a2d1d6;
+}
 
 hr {
   text-align: center;
@@ -49,7 +49,7 @@ hr {
 
 .info a,
 p {
-  color: #6F6767;
+  color: #6f6767;
   font-weight: 200;
 }
 
@@ -127,6 +127,7 @@ p {
   text-align: center;
   color: black;
   font-size: 20px;
+  margin-top: 15px;
 }
 
 .medicaid {
@@ -156,7 +157,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .wellcare {
@@ -169,25 +169,20 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .is-pics {
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .color1 {
-
   font-weight: bold;
   font-size: 22px;
-
 }
 
 .color2 {
-
   font-weight: bold;
   font-size: 22px;
 }
@@ -217,7 +212,7 @@ a {
 
 h1 {
   text-align: center;
-  padding: 50px;
+  padding: 30px;
   font-family: "Playfair Display", serif;
   font-weight: 500;
   letter-spacing: 4px;
@@ -261,7 +256,6 @@ h2 {
   position: relative;
   top: 10px;
   left: 15px;
-
 }
 
 .nav_links a {
@@ -294,7 +288,6 @@ h2 {
 
 @media screen and (max-width: 980px) {
   nav {
-
     flex-direction: column;
   }
 
@@ -313,11 +306,9 @@ h2 {
   }
 
   .is-pics img {
-
     width: 35vw;
     height: auto;
     padding: 30px;
-
   }
 
   .pcs {
@@ -355,8 +346,6 @@ h2 {
 }
 
 @media screen and (max-width: 479px) {
-
-
   .nav_links {
     width: 60vw;
   }
@@ -372,7 +361,6 @@ h2 {
   }
 
   .is-pics img {
-
     width: 350px;
     height: auto;
     padding: 60px;
@@ -394,7 +382,8 @@ h2 {
     width: 55vw;
   }
 
-  .staywell {}
+  .staywell {
+  }
 
   .burger {
     align-self: flex-end;
@@ -429,7 +418,6 @@ h2 {
     justify-content: center;
     position: relative;
     left: 0px;
-
   }
 
   .info p {
@@ -449,7 +437,6 @@ h2 {
     font-size: 2.4vw;
   }
 }
-
 
 .nav-active {
   display: flex;
