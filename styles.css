@@ -6,9 +6,7 @@
   margin: 0;
 }
 
-.footer {
-  margin-bottom: 20px;
-}
+
 
 .contact-button {
   text-align: center;
@@ -230,23 +228,33 @@ h2 {
   margin-top: 20px;
 }
 
+.footer {
+  background-color: #393a3b;
+  padding: 30px;
+}
+
+.footer p {
+  color: white;
+}
+
 .serviceLine {
   display: flex;
   justify-content: space-around;
 
 }
 
-
 .serviceBlock {
   width: 40vw;
   text-align: center;
 }
 
-
-
 .serviceBlock p {
-  font-size: 17px;
+  font-size: 19px;
   text-align: center;
+}
+
+.serviceList {
+  padding-bottom: 40px;
 }
 
 . .slogan {
@@ -305,6 +313,11 @@ h2 {
   transition: all 0.3s ease;
 }
 
+.contact-text {
+  text-align: center;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 980px) {
   nav {
     flex-direction: column;
@@ -316,10 +329,10 @@ h2 {
     height: 25vh;
     display: none;
     left: 0;
-    width: 65vw;
+
   }
 
-  .serviceList {}
+
 
   .serviceLine {
     flex-direction: column;
@@ -391,6 +404,14 @@ h2 {
 
   .serviceBlock {
     width: 80vw;
+  }
+
+  .counties div {
+    padding: 30px;
+  }
+
+  .polk {
+    padding: 20px;
   }
 
   .is-pics {
