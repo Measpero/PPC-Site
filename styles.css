@@ -228,6 +228,54 @@ h2 {
   margin-top: 20px;
 }
 
+.form {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  
+}
+.form input {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  width: 350px;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.form button {
+  width: 300px;
+}
+textarea {
+  font-family: "PT Serif", serif;
+  padding: 10px;
+  font-size: 20px;
+  height: 200px;
+  width: 350px;
+  resize: horizontal;
+  max-width: 350px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.form button{
+  width: 200px;
+  padding: 20px;
+  border: none;
+  border-radius: 35px;
+  margin-top: 15px;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  font-weight: 550;
+  
+}
+.form button:hover {
+  cursor: pointer;
+  background-color: #a2d1d6;
+}
 .footer {
   background-color: #393a3b;
   padding: 30px;
@@ -235,6 +283,7 @@ h2 {
 
 .footer p {
   color: white;
+  font-size: 1.2vw;
 }
 
 .serviceLine {
@@ -257,7 +306,7 @@ h2 {
   padding-bottom: 40px;
 }
 
-. .slogan {
+.slogan {
   padding: 1.5rem;
 }
 
@@ -376,7 +425,7 @@ h2 {
   }
 
   .info p {
-    font-size: 2.2vw;
+    font-size: 1.7vw;
   }
 
   .license-num p {
@@ -446,7 +495,7 @@ h2 {
     width: 55vw;
   }
 
-  .staywell {}
+  
 
   .burger {
     align-self: flex-end;
