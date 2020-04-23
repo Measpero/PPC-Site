@@ -22,6 +22,4 @@ const navSlide = () => {
         burger.classList.toggle('toggle');
     });
     //animate links
-
 }
-navSlide();
