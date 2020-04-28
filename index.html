@@ -39,15 +39,39 @@
 
         <div class="contactForm">
             <h2>Contact Us</h2>
-            <form method="post" class="form" onsubmit="return false" action="index.html">
-                <div class="fn">
-                    <input type="text" name="name" id="name" placeholder="Name"><br>
-                    <input name="email" type="email" id="email" placeholder="Email"><br>
-                    <input name="number" type="tel" id="number" placeholder="Phone Number"><br>
-                    <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea><br>
-                    <button type="submit" name="submit">Send Message</button>
+            <form role="form" id="contactForm" class="form" data-toggle="validator" class="shake">
+                <div class="form-group">
+                    <div class="controls">
+                        <input type="text" id="name" class="form-control" placeholder="Name" required
+                            data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                        <input type="email" class="email form-control" id="email" placeholder="Email" required
+                            data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required
+                            data-error="Please enter your message subject">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="controls">
+                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required
+                            data-error="Write your message"></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
                 </div>
 
+                <button type="submit" id="submit" class="btn btn-success"></i> Send Message</button>
+                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                <div class="clearfix"></div>
 
             </form>
         </div>
@@ -85,6 +109,9 @@
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="assets/js/jquery-min.js"></script>
+    <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
+    <script type="text/javascript" src="assets/js/contact-form-script.js"></script>
 </body>
 
 </html>
