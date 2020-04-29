@@ -1,3 +1,7 @@
+/* This is a theme created by Hector Rodriguez for Poinciana Personal Care.
+any and all uses of this theme are subject to inspection by the original creaters.
+Copyright © Poinciana Personal Care */
+
 @import url("https://fonts.googleapis.com/css?family=PT+Serif|PT+Serif+Caption|Playfair+Display&display=swap");
 
 * {
@@ -233,8 +237,9 @@ h2 {
   padding: 10px;
   text-align: center;
   transition: all 1s ease-in-out;
-  
+
 }
+
 .form input {
   font-family: "PT Serif", serif;
   font-size: 20px;
@@ -246,9 +251,11 @@ h2 {
   outline: none;
   border-bottom: 1px solid black;
 }
+
 .form button {
   width: 300px;
 }
+
 textarea {
   font-family: "PT Serif", serif;
   padding: 10px;
@@ -261,7 +268,8 @@ textarea {
   border-bottom: 1px solid black;
   outline: none;
 }
-.form button{
+
+.form button {
   width: 200px;
   padding: 20px;
   border: none;
@@ -270,12 +278,14 @@ textarea {
   font-family: "PT Serif", serif;
   font-size: 18px;
   font-weight: 550;
-  
+
 }
+
 .form button:hover {
   cursor: pointer;
   background-color: #a2d1d6;
 }
+
 .footer {
   background-color: #393a3b;
   padding: 30px;
@@ -495,7 +505,7 @@ textarea {
     width: 55vw;
   }
 
-  
+
 
   .burger {
     align-self: flex-end;
